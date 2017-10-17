@@ -41,3 +41,38 @@ header {
     width: 100%;
     margin-top: 10%;
 }
+
+#color-palette {
+    display: flex;
+    flex-direction: row;
+}
+
+.color-box {
+    flex: 1;
+    margin-top: 10%;
+}
+
+#graphite {
+    background-color: #2e2e2e;
+    width: 100px;
+    height: 100px;
+}
+
+#cloud {
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+
+}
+
+#fog {
+    background-color: #eaeaea;
+    width: 100px;
+    height: 100px;
+}
+
+#rose {
+    background-color: #bb5d5f;
+    width: 100px;
+    height: 100px;
+}
