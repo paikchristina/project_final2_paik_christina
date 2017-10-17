@@ -27,5 +27,12 @@ header {
     border-bottom: solid 10px #eaeaea;
     color: #ffffff;
     padding: 3%;
+}
+
+#header1 {
     font-family: 'Gotika Demo';
+}
+
+#header2 {
+    font-family: 'Gotika Italic';
 }
