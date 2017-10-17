@@ -3,6 +3,15 @@
 	padding: 0;
 	border: 0;
 }
+@font-face {
+	font-family: 'Gotika Black';
+	src: url('../fonts/typogotikablack.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Gotika Demo';
+	src: url('../fonts/typogotikademo.otf') format('opentype');
+}
 
 body {
     background-color: #b5bec5;
