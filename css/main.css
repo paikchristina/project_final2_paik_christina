@@ -13,6 +13,11 @@
 	src: url('../fonts/typogotikademo.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'Gotika Italic';
+  src: url('../fonts/typogotikaitalic.otf') format('opentype');
+}
+
 body {
     background-color: #b5bec5;
 }
@@ -22,4 +27,5 @@ header {
     border-bottom: solid 10px #eaeaea;
     color: #ffffff;
     padding: 3%;
+    font-family: 'Gotika Demo';
 }
