@@ -62,7 +62,6 @@ header {
     background-color: #ffffff;
     width: 100px;
     height: 100px;
-
 }
 
 #fog {
@@ -75,4 +74,18 @@ header {
     background-color: #bb5d5f;
     width: 100px;
     height: 100px;
+}
+
+#patterns {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.texture {
+    flex: 1;
+    width: 100%;
+    max-width: 360px;
+    max-height: 200px;
+    object-fit: cover;
 }
