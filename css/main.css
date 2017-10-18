@@ -58,36 +58,6 @@ header {
     height: 100px;
 }
 
-.hexcode1,
-.hexcode2,
-.hexcode3,
-.hexcode4 {
-    display: none;
-    font-family: 'Gotika Demo';
-    padding-top: 45%;
-    padding-left: 10%;
-}
-
-#color-palette:hover .hexcode1 {
-    display: inline-block;
-    color: #ffffff;
-}
-
-#color-palette:hover .hexcode2 {
-    display: inline-block;
-    color: #2e2e2e;
-}
-
-#color-palette:hover .hexcode3 {
-    display: inline-block;
-    color: #2e2e2e;
-}
-
-#color-palette:hover .hexcode4 {
-    display: inline-block;
-    color: #ffffff;
-}
-
 #cloud {
     background-color: #ffffff;
     width: 100px;
@@ -115,7 +85,6 @@ header {
 .texture {
     flex: 1;
     width: 100%;
-    max-width: 360px;
     max-height: 200px;
     object-fit: cover;
 }
@@ -207,4 +176,9 @@ h2 {
     width: 100%;
     margin-top: 15%;
     margin-bottom: 15%;
+}
+
+/*** MEDIA QUERY 550PX ***/
+@media min-width() {
+
 }
