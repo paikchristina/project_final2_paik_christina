@@ -410,3 +410,40 @@ h2 {
         margin-top: 20%;
     }
 }
+
+/*** MEDIA QUERY 1700PX ***/
+@media (min-width: 1700px) {
+    header {
+        padding: 2%;
+    }
+
+    .skylinelogo {
+        width: 50%;
+    }
+
+    #color-palette {
+        width: 50%;
+    }
+
+    #patterns {
+        width: 17%;
+        margin-left: 25%;
+    }
+
+    #buttons {
+        width: 51%;
+    }
+
+    h2 {
+        padding-top: 5%;
+    }
+
+    .textlinkp {
+        margin-top: 9%;
+    }
+
+    #hairflip {
+        margin-top: 19%;
+        width: 53%;
+    }
+}
