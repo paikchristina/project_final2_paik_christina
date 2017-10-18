@@ -386,3 +386,27 @@ h2 {
         margin-bottom: 10%;
     }
 }
+
+/*** MEDIA QUERY 1500PX ***/
+@media (min-width: 1500px) {
+    main {
+        width: 49%;
+    }
+
+    h2 {
+        padding-top: 7%;
+    }
+
+    #example-p {
+        padding-top: 5%;
+    }
+
+    .textlinkp {
+        margin-top: 12%;
+    }
+
+    #hairflip {
+        width: 68%;
+        margin-top: 20%;
+    }
+}
