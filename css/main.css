@@ -147,3 +147,20 @@ h2 {
     text-align: left;
     font-size: 1.1rem;
 }
+
+.textlink {
+    font-family: 'Gotika Black';
+    color: #bb5d5f;
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.textlink:hover {
+    color: #2e2e2e;
+}
+
+.textlinkp {
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
