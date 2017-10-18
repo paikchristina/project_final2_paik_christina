@@ -89,3 +89,35 @@ header {
     max-height: 200px;
     object-fit: cover;
 }
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.addbutton {
+    flex: 1;
+    padding: 4%;
+    font-family: 'Gotika Demo';
+    letter-spacing: 5px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 3px;
+    font-size: 1.1rem;
+}
+
+.submitbutton {
+    flex: 1;
+    margin-top: 5%;
+    padding: 4%;
+    font-family: 'Gotika Black';
+    letter-spacing: 5px;
+    font-size: 1.1rem;
+    color: #ffffff;
+    background-color: #bb5d5f;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .6);
+    text-shadow: 3px 2px rgba(0, 0, 0, .4);
+}
