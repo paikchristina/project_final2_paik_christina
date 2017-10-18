@@ -179,6 +179,24 @@ h2 {
 }
 
 /*** MEDIA QUERY 550PX ***/
-@media min-width() {
+@media (min-width: 550px) {
+    header {
+        padding: 5%;
+        font-size: 1.3rem;
+    }
 
+    .skylinelogo {
+        width: 80%;
+        margin: auto;
+        margin-top: 15%;
+        display: block;
+    }
+
+    #buttons {
+        max-width: 70%;
+    }
+
+    .textlink {
+        font-size: 1.3rem;
+    }
 }
