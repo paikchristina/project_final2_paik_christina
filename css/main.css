@@ -235,3 +235,35 @@ h2 {
         margin-bottom: 10%;
     }
 }
+
+/*** MEDIA QUERY 950PX ***/
+@media (min-width: 950px) {
+    .skylinelogo {
+        width: 60%;
+    }
+
+    #color-palette {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    #patterns {
+        max-width: 800px;
+        margin: auto;
+        margin-top: 10%;
+    }
+
+    #buttons {
+        width: 55%;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    #example-p {
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: 1.2rem;
+    }
+}
