@@ -267,3 +267,55 @@ h2 {
         font-size: 1.2rem;
     }
 }
+
+/*** MEDIA QUERY 1200PX ***/
+@media (min-width: 1200px) {
+    header {
+        padding: 3%;
+    }
+
+    .skylinelogo {
+        width: 54%;
+        margin-top: 7%;
+    }
+
+    #color-palette {
+        flex-direction: column;
+        display: inline-block;
+        padding-left: 23%;
+    }
+
+    #graphite, #rose, #fog, #cloud {
+        height: 219px;
+    }
+
+    #patterns {
+        display: inline-block;
+        width: 40%;
+        margin-top: 7%;
+        padding-left: 5%;
+    }
+
+    #buttons {
+        width: 54%;
+        margin-top: 7%;
+    }
+
+    #example-p {
+        padding-left: 23%;
+        padding-right: 21%;
+        padding-top: 3%;
+    }
+
+    .textlinkp {
+        margin-top: 3%;
+    }
+
+    #hairflip {
+        width: 54%;
+        display: block;
+        margin: auto;
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+}
