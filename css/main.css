@@ -39,7 +39,7 @@ header {
 
 .skylinelogo {
     width: 100%;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 #color-palette {
@@ -49,7 +49,7 @@ header {
 
 .color-box {
     flex: 1;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 #graphite {
@@ -79,7 +79,7 @@ header {
 #patterns {
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .texture {
@@ -95,7 +95,7 @@ header {
     flex-direction: column;
     max-width: 80%;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .addbutton {
@@ -120,4 +120,30 @@ header {
     background-color: #bb5d5f;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .6);
     text-shadow: 3px 2px rgba(0, 0, 0, .4);
+}
+
+h1 {
+    font-family: 'Gotika Black';
+    font-size: 2.3rem;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.pinkify {
+    color: #bb5d5f;
+}
+
+h2 {
+    font-family: 'Gotika Demo';
+    text-align: center;
+    padding: 5%;
+}
+
+#example-p {
+    font-family: 'Gotika Demo';
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+    font-size: 1.1rem;
 }
